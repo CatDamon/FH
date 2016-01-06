@@ -1,0 +1,16 @@
+1. 下载和安装 tomcat、mysql，
+2. 在mysql客户端中，先建个名为numysql的数据库，然后执行项目/resources/sql/路径下的numysql.sql脚本文件。
+3. 本项目使用maven构建，请确保主机上已安装和配置好maven工具。
+4. 数据库信息可在/resources/下的dbconfig.properties属性文件查看.
+5. 访问地址：http://localhost:8080/FHM
+6. 系统登录：
+	用户名：admin
+	密  码：1   
+注意：
+	请不要直接在数据库修改密码，密码都是加密过的
+	linux下数据库表名设置下忽略大小写
+	tomcat绝对没问题的版本
+	apache-tomcat-8.0.15
+	apache-tomcat-7.0.62
+	apache-tomcat-7.0.32
+	apache-tomcat-6.0.43
